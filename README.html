@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="myform.css">
+  <title></title>
+</head>
+
+<body>
+  <video class="video-bg" autoplay muted loop>
+  <source src="Motion.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<div class="bodydiv">
+<h4>Login form</h4>
+<form action="https://sriram-1-6.github.io/First-repository-/form.html" method="GET">
+ <div class="textbox">
+    <label  class="label" for="username">Username</label>
+     <input type="text" name="username" id="username" placeholder="Enter your Name" required>
+  
+ </div> <br>
+ <div class="textbox">
+   <label class="label"  for="password">Password</label>
+   <input type="password" id="password" placeholder="Enter Password" required min="8">
+ </div> <br>
+  <div>
+    <label  class="label" id="datelabel"  for="year">Date of birth</label>
+    <input type="date" id="dat"  >
+  </div> <br>
+  <!-- <div>
+    Search<input type="search">
+  </div>-->
+  <div>
+    <label  class="label" id="files" for="file">Import a file</label><input id="file" type="file">
+  </div>
+  <div class="gender"> <br><strong>Gender</strong><br>
+  <div>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+  </div>
+  <div>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+  </div>
+    <div>
+    <input type="radio" name="gender" id="bot">
+    <label for="bot">Bot</label>
+  </div> </div><br>
+  <div>
+    Intrested in
+    <select name="Intrested" id="lang">
+      <option value="C">Gaming</option>
+      <option value="Java">Working</option>
+      <option value="Python">Studying</option>
+      
+      
+    </select>
+  </div> <br>
+  <div>
+    <label id="terms" for="terms">Terms and condition</label>
+    <input type="checkbox" name="terms and condition" id="terms">
+  </div> <br>
+  <div class="button">
+    <button id="submit" value="submit">Signup</button>
+    <button value="reset">Reset</button>
+  </div>
+  
+</form>
+</div>
+</body>
+
+</html>
